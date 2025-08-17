@@ -1366,3 +1366,8 @@ input[type="text"] {
 }
 
 /*# sourceMappingURL=style.css.map */
+/*---- added stylilng -------*/
+
+a{
+  padding-bottom: 0;
+}
