@@ -518,6 +518,8 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 60%;
   display: inline-block;
   color: rgba(0, 0, 0, 0.5);
+  margin-right: 5px;
+
 }
 
 .fh5co-social-icons {
@@ -770,6 +772,11 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .timeline-body > p + p {
   margin-top: 5px;
+}
+
+.timeline-list{
+  margin-bottom: 5px;
+  list-style-type: none;
 }
 
 @media (max-width: 992px) {
