@@ -1456,3 +1456,32 @@ h2 {
 h2.contact_heading, .hello_heading {
   text-decoration: none;
 }
+
+/* Global responsive media */
+img, picture, video, canvas, svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Avoid horizontal overflow on small screens */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Improve text wrapping for narrow screens */
+p, li, .feature-copy p, .timeline-body p, .test_text, .company {
+  overflow-wrap: anywhere;
+  word-wrap: break-word;
+}
+
+/* Ensure form elements fit narrow viewports */
+@media screen and (max-width: 480px) {
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  .btn,
+  .form-control {
+    width: 100%;
+  }
+}
