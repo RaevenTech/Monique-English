@@ -1448,3 +1448,11 @@ textarea {
 
 
 
+h2 {
+  text-decoration: underline;
+}
+
+/* Remove underline for specific contact heading */
+h2.contact_heading, .hello_heading {
+  text-decoration: none;
+}
