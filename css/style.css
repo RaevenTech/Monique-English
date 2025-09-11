@@ -376,8 +376,8 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   margin: 0 auto;
   margin-bottom: 30px;
   -webkit-border-radius: 50%;
@@ -1415,4 +1415,36 @@ textarea {
   opacity: 0.6;
   cursor: not-allowed;
 }
+
+/* Center feature_left2 */
+.feature_left2 {
+  float: none !important;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Center feature-copy within feature_left2 */
+.feature_left2 .feature-copy {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.feature_left2 .feature-copy h3 {
+  text-align: center;
+}
+
+.feature_left2 .feature-copy p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.email_warning{
+  font-size: small;
+  letter-spacing: 0px;
+  line-height: 1px;
+  margin-top: -10px;
+}
+
+
 
