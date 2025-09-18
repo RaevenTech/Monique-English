@@ -48,6 +48,10 @@
   color: #e67e00;
 }
 
+.logo {
+  text-decoration: none;
+}
+
 .navbar-toggle {
   display: none;
   flex-direction: column;
