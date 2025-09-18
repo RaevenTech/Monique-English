@@ -52,6 +52,17 @@
   text-decoration: none;
 }
 
+
+
+.testimonial_container3,
+.testimonial_container4,
+.testimonial_container5,
+.testimonial_container6,
+.testimonial_container7,
+.testimonial_container8 {
+  display: none;
+}
+
 .navbar-toggle {
   display: none;
   flex-direction: column;
@@ -1487,5 +1498,9 @@ p, li, .feature-copy p, .timeline-body p, .test_text, .company {
   .btn,
   .form-control {
     width: 100%;
+  }
+  
+  .test_txt {
+    color: #565657;
   }
 }
